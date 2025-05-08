@@ -1,0 +1,40 @@
+.env
+__pycache__/
+*.pyc
+venv/
+.DS_Store
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Flask config / secrets
+instance/
+*.env
+
+# Pytest / coverage
+htmlcov/
+.coverage
+.cache
+.pytest_cache/
+
+# Logs
+*.log
+
+# Databases (optional if generated)
+*.sqlite3
+*.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
